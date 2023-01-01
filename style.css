@@ -1,5 +1,5 @@
 html, body {
   height: 150%;
   width: 150%;
-  font-family: Helvetica;
+  font-family: Helvetica; /*Probably should change this to a monospace font family later, which I prefer */
 }
