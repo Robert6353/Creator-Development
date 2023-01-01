@@ -3,3 +3,7 @@ html, body {
   width: 150%;
   font-family: Helvetica; /*Probably should change this to a monospace font family later, which I prefer */
 }
+
+h2, h3 {
+  text-colour: red;
+}
