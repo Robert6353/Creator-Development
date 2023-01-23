@@ -8,7 +8,11 @@ h2, h3 {
   text-colour: red;
 }
 
-.nyan_cat_gif {
-  height: 500px;
-  width: 500px;
+#nyan_cat_gif {
+ border: 1px solid black;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
 }

@@ -7,6 +7,24 @@
     <link href = "style.css" rel = "stylesheet" type = "text/css">
   </head>
   <body>
+    <table>
+      <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+      </tr>
+      <tr>
+        <td>Alfreds Futterkiste</th>
+        <td>Maria Anders</th>
+        <td>Germany</th>
+      </tr>
+      <tr>
+        <td>Centro Commercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+      </tr>
+    </table>
+    
     <a href = "index.html"> Home </a>
     <br>
     <a href = "index.html" target = "_self">Same tab test</a>
@@ -20,8 +38,9 @@
     <img src = /Pictures/top-view-blue-calculator-notepad-color-background_260672-4055.webp alt = "cool calc photo" usemap = #calcmap>
     <map name = #calcmap>
       <area shape = "rect" alt = "calculator" href = "index.html" coords = "490, 280, 900, 0">
-      <area shape = "poly" alt = "pencil" onclick = "pencil_func()" coords = "350, 0, 300, 200, 320, 220, 370, 0">
+      <area shape = "poly" alt = "pencil" onclick = "pencil_func()" value = "Display" coords = "350, 0, 300, 200, 320, 220, 370, 0">
      </map>
+    <script src = "script.js"></script>
   </body>
   
 </html>
