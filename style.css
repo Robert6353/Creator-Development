@@ -5,8 +5,10 @@ html, body {
   color: #212529ff;
 }
 
-#nyan_cat_gif {
- border: 1px solid black;
+.nyan_cat {
+  background-color: blue;
+  padding: 10px;
+  border: 1px solid black;
 }
 
 table, th, td {
