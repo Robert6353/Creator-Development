@@ -3,6 +3,12 @@ body {
   padding: 0 px;
 }
 
+.inlineFrame {
+  height: 100vh;
+  width: 40vw;
+  border: 2px solid black;
+}
+
 .--fa-cat {
   margin: 2rem;
 }
