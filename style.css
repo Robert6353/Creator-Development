@@ -1,4 +1,34 @@
-html, body {
-  height: 100%;
+html {
+  font-size: 18px;
+}
+
+body {
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+.sideNav{
+  height: 100vh;
+  width: 16.5%;
+  background-color: #FBFBFA;
+  border-right: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  display: grid;
+  text-align: center;
   width: 100%;
+}
+
+nav a{
+  text-decoration: none;
+  color: #5e5b50;
+}
+
+nav a:active, a:hover{
+  background-color: #F1F1F0;
+  color: #37352F;
 }
