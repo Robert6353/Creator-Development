@@ -1,4 +1,60 @@
-html, body {
-  height: 150%;
-  width: 150%;
+body {
+  margin: 0px;
+  padding: 0 px;
 }
+
+.inlineFrame {
+  height: 100vh;
+  width: 40vw;
+  border: 2px solid black;
+}
+
+.--fa-cat {
+  margin: 2rem;
+}
+
+.nyan_cat {
+  background: rgba(0, 0, 128, 0.8);
+  padding: 10px;
+}
+
+.childTest {
+  margin: 3rem 1rem 3rem 1rem;
+  text-align: justify;
+  text-indent: 1rem;
+}
+
+.childTest:hover {
+  margin: 3rem 1rem 3rem 1rem;
+  text-align: justify;
+  text-indent: 1rem;
+}
+
+.parentTest {
+  width: 100%;
+  max-width: 800px;
+}
+
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: green;
+  color: white;
+}
+
+.testHeader {
+  background-color: yellow;
+  min-height: 100px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
