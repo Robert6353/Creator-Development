@@ -1,27 +1,51 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Testing</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
+  <iframe id="fullscreen-iframe"></iframe>
+  <div id="background-overlay"></div>
       <div class="grid-container">
-        <div class="grid-column">
+        <div class="grid-column grid-column-1">
           <nav class="nav">
-                <a href="#" class="nav-item nav-item-1">Nav 1</a>
-                <a href="#" class="nav-item nav-item-2">Nav 2</a>
-                <a href="#" class="nav-item nav-item-3">Nav 3</a>
-            </nav>
+            <div class="nav-item nav-item-1">
+              <b class = "nav-title">No Country For Old Men</b>
+              <span class="icon-container">
+                <span class="material-icons nav-icon-left">
+                  keyboard_double_arrow_left</span>
+                <span class="material-icons nav-icon-down">
+                  keyboard_double_arrow_down</span>
+              </span>
+              <div class="dropdown-menu">
+                <a href="#">Settings</a>
+                <a href="#">History</a>
+              </div>
+            </div>
+            <div class="nav-item nav-item-2">
+              <p>Main</p>
+              <span class = "icon-container-nav-item-2">
+                <img src = "public/branch.svg"></img>
+              </span>
+            </div>
+            <div href="#" class="nav-item nav-item-3">
+              <p>Search</p>
+              <span class = "icon-container-nav-item-3">
+                <span class = "material-icons search">
+                search</span>
+              </span>
+            </div>
+          </nav>
         </div>
-        <div class="grid-column">
+        <div class="grid-column grid-column-2">
         </div>
-        <div class="grid-column">
+        <div class="grid-column grid-column-3">
         </div>
     </div>
   <script src="script.js"></script>
 </body>
-
 </html>
