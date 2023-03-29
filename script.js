@@ -9,13 +9,13 @@ navItem1.addEventListener('click', dropDownActivate);
 
 function dropDownActivate() {
   dropdownMenu.classList.toggle('active');
-  
+
   if (navIconLeft.style.display === 'none') {
     navIconLeft.style.display = 'block';
   } else {
     navIconLeft.style.display = 'none';
   }
-  
+
   if (navIconDown.style.display === "block") {
     navIconDown.style.display = "none";
   } else {
@@ -42,4 +42,32 @@ backgroundOverlay.addEventListener('click', () => {
   fullscreenIframe.style.display = 'none';
   fullscreenIframe.src = '';
   backgroundOverlay.style.display = 'none'; // Hide the background overlay
+});
+
+const navItem7 = document.querySelector('.nav-item-7');
+const dropdownMenu7 = document.querySelector('.dropdown-menu-7');
+const expandMoreIcon = document.querySelector('.nav-item-7 .icon-expand-more');
+const chevronRightIcon = document.querySelector('.nav-item-7 .icon-chevron-right');
+
+// Add an event listener for click on nav-item-7
+navItem7.addEventListener('click', toggleDropdownMenu7);
+
+// Function to toggle the dropdown menu for nav-item-7
+function toggleDropdownMenu7() {
+  navItem7.classList.toggle('expanded');
+  
+  if (navItem7.classList.contains('expanded')) {
+    expandMoreIcon.style.display = 'none';
+    chevronRightIcon.style.display = 'inline';
+  } else {
+    expandMoreIcon.style.display = 'inline';
+    chevronRightIcon.style.display = 'none';
+  }
+}
+
+const navItem4 = document.querySelector('.nav-item-4');
+
+// Add an event listener for the click event on nav-item-4
+navItem4.addEventListener('click', () => {
+  window.location.href = 'document_edit.html';
 });
