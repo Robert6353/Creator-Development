@@ -13,7 +13,6 @@ html, body {
 }
 
 .grid-column {
-  display: grid;
   background-color: #f1f1f1;
   border-right: 1px solid #ccc;
 }
@@ -33,23 +32,31 @@ html, body {
   padding: 5px 10px;
   font-size: 1.6rem;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
 }
 
 .nav-item.nav-item-1 {
-  justify-content: space-between;
   display: flex;
   position: relative;
 }
 
-.nav-item.nav-item-2, .nav-item.nav-item-3 {
-  justify-content: space-between;
+.nav-item.nav-item-4, .nav-item.nav-item-5, .nav-item.nav-item-6, .nav-item.nav-item-7, .nav-item.nav-item-8, .nav-item.nav-item-9 {
+  justify-content: flex-start;
 }
 
 .nav-item:hover {
     background-color: #e0e0e0;
     border-radius: 4px;
+}
+
+.nav-title-over {
+  padding: 0px 5px;
+  font-weight: 50;
+  color: #737373;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 14px;
 }
 
 .dropdown-menu {
@@ -62,7 +69,6 @@ html, body {
   z-index: 1;
   background-color: #FBFBFA;
   border-radius: 5px;
-  min-width: 100%; /* You can adjust this value if you want a different width */
 }
 
 .dropdown-menu.active {
@@ -76,6 +82,10 @@ html, body {
   display: none;
 }
 
+.icon-container-main-nav {
+  margin-right: 10px;
+}
+
 #fullscreen-iframe {
   display: none;
   position: fixed;
@@ -83,7 +93,7 @@ html, body {
   top: 50%;
   left: 50%;
   width: 50%;
-  height: 50%;
+  height: 75%;
   border: none;
   z-index: 11; /* Ensure the iframe is above the background overlay */
   transform: translate(-50%, -50%); /* Center the iframe */
@@ -92,8 +102,6 @@ html, body {
 #background-overlay {
   display: none;
   position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
