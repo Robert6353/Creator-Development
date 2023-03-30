@@ -41,7 +41,7 @@ html, body {
   position: relative;
 }
 
-.nav-item.nav-item-4, .nav-item.nav-item-5, .nav-item.nav-item-6, .nav-item.nav-item-7, .nav-item.nav-item-8, .nav-item.nav-item-9 {
+.nav-item.nav-item-major {
   justify-content: flex-start;
 }
 
@@ -80,10 +80,6 @@ html, body {
 
 .nav-item.nav-item-1 .nav-icon-down {
   display: none;
-}
-
-.icon-container-main-nav {
-  margin-right: 10px;
 }
 
 #fullscreen-iframe {
